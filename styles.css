@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     width: 100%;
     height: 15vh;
@@ -10,10 +15,44 @@
     border-bottom: 1px solid black;
 }
 
+.mainSection{
+    position: relative;
+}
+
+.wallpaper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 .topMain{
     width: 100%;
     height: 50vh;
     border-bottom: 1px solid black;
+    color: aliceblue;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.textContainer{
+    width: 55vw;
+    height: 100%;
+    font-size: 1.5em;
+}
+
+.text{
+    margin: 0;
+}
+
+.mainTextareaHeading{
+    font-size: 3em;
 }
 
 .bottomMain{
