@@ -10,6 +10,9 @@ body{
 }
 
 .slideShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 60vh;
     border-bottom: 1px solid black;

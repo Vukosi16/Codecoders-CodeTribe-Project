@@ -1,14 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
    position: relative;
     
   }
   
   .slider{
-    width: 800px;
-    height: 500px;
+    width: 99%;
+    height: 99%;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -17,6 +16,7 @@ body{
     width: 500%;
     height: 500px;
     display: flex;
+
   }
   
   .slides input{
@@ -29,8 +29,8 @@ body{
   }
   
   .slide img{
-    width: 800px;
-    height: 500px;
+    width: 50%;
+    height: 100%;
   }
   
   /*css for manual slide navigation*/
